@@ -9,9 +9,9 @@ app_revision=$3
 
 # Paths
 kibana_dir="/tmp/source"
-source_dir="${kibana_dir}/plugins/defans"
+source_dir="${kibana_dir}/plugins/wazuh"
 build_dir="${source_dir}/build"
-destination_dir="/defans_app"
+destination_dir="/wazuh_app"
 checksum_dir="/var/local/checksum"
 
 # Repositories URLs
